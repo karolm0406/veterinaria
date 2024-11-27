@@ -1,0 +1,68 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(270, 60%, 95%); /* Fondo suave morado claro */
+}
+
+header {
+    background-color: hsl(270, 40%, 70%); /* Morado suave */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(340, 80%, 75%); /* Rosa suave */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicio {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.servicio:hover {
+    transform: translateY(-5px);
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.servicio h3 {
+    color: hsl(210, 50%, 60%); /* Azul suave */
+    margin: 10px 0;
+}
+
+.servicio p {
+    color: hsl(0, 0%, 40%); /* Gris oscuro para mejor legibilidad */
+    margin-bottom: 15px;
+}
